@@ -12,14 +12,14 @@ Finally we will provide the summary of our EDA findings and provide recommendati
 
 In order to achieve objective, I will follow below **CRISP-DM** framework steps
 
-1. **Business Understanding :** 
-2. **Data Understanding :** 
-3. **Data Preparation :** 
-4. **Exploratory Data Analysis(EDA) :** 
-5. **Modeling :**
-6. **Evaluation :**
-7. **Results: **
-8. **Conclusion :**
+1. **Business Understanding ** 
+2. **Data Understanding ** 
+3. **Data Preparation ** 
+4. **Exploratory Data Analysis(EDA) ** 
+5. **Modeling **
+6. **Evaluation **
+7. **Results **
+8. **Conclusion **
 
 
 ## Business Problem Statement
@@ -51,7 +51,8 @@ Original Dataset : [Kaggle Used Car Dataset](https://www.kaggle.com/datasets/aus
 --------
 
 ### Price Distribution
-![Price Distribution](price_distribution.png "Price Distribution")
+
+![Price Distribution](price_distribution.png)
 
 **Note :** From the above price distribution chart
 - Most of the car prices are < 20K and distribution is right skewed
@@ -134,7 +135,7 @@ Categorical type features impact on price Observations
 
 ### Numerical features distributions
 
-![Numerical feature distributions](./images/images/price_distribution_per_numeric_type.png)
+![Numerical feature distributions](./images/price_distribution_per_numeric_type.png)
 
 **Observations**
 
@@ -160,5 +161,3 @@ Below are the features, consumer values most
 - car title : Values clear title
 
 Also as provided in results section of [prediction_model_notebook](./notebooks/Used_car_price_EDA_and_prediction_model.ipynb)  used car price can be calculated using predictive model
-
-

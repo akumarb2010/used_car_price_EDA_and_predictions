@@ -12,14 +12,14 @@ Finally we will provide the summary of our EDA findings and provide recommendati
 
 In order to achieve objective, I will follow below **CRISP-DM** framework steps
 
-1. **Business Understanding ** 
-2. **Data Understanding ** 
-3. **Data Preparation ** 
-4. **Exploratory Data Analysis(EDA) ** 
-5. **Modeling **
-6. **Evaluation **
-7. **Results **
-8. **Conclusion **
+1. Business Understanding
+2. Data Understanding
+3. Data Preparation
+4. Exploratory Data Analysis(EDA) 
+5. Modeling
+6. Evaluation
+7. Results
+8. Conclusion
 
 
 ## Business Problem Statement
@@ -50,99 +50,7 @@ Original Dataset : [Kaggle Used Car Dataset](https://www.kaggle.com/datasets/aus
 ## Exploratory Data Analysis(EDA)
 --------
 
-### Price Distribution
-
-![Price Distribution](price_distribution.png)
-
-**Note :** From the above price distribution chart
-- Most of the car prices are < 20K and distribution is right skewed
-- p50(median) is 14K
-- Above 60K are outliers
-
-
-### Categorical Feature Data Exploration
-#### Categorical Feature Type Distribution Summary
-
-![Categorical Type Feature Value Distributions](./images/price_distribution_per_category.png)
-
-*Observations:* From the above feature hist distributions
-
-- Used cars market is dominated by Ford(20%), Chevrolet(15%), toyota(10%), honda(5%), gmc(3%) and bmw(2%) etc.,
-- Condition of cars
-    - 70% of the used cars are in good condition
-    - 25% of them are in excellent condition
-    - 5% of them almso new
-- Cylinder type
-    - 65% of them are cylinders
-    - each of the 4 and 8 cyliders remaining % equally (which is almost 15% each)
-- Fuel Type
-    - 85% of them are gas
-    - 5% of them diesel and remaining others like electric/hybrid (As electric is very less, so this shows the dataset is very old...)
-- Title status
-    - 95% of them have clean titles
-- Transmission type
-    - Almsot 80% of them are automatic
-- Drive type
-    - 60% of them are four wheel drive
-    - 25% of them are fwd drive
-- Type distribution
-    - 40% of them are Sedan
-    - 18% of them are SUV
-- Color distribution (color might not contribute price value but it is definitely one of the purchase decision factor)
-    - 50% of the white
-    - 15% of them black
-
-#### Price distribution per caterorical type
-
-![Price distribution by manufacturer](./images/price_distribution_per_manufacturer_category.png)
-
-![Price distribution by condition](./images/price_distribution_per_condition_category.png)
-
-![Price distribution by cylinders](./images/price_distribution_per_cylinders_category.png)
-
-![Price distribution by fuel_type](./images/price_distribution_per_fuel_category.png)
-
-![Price distribution by title status](./images/price_distribution_per_title_status_category.png)
-
-![Price distribution by transmission](./images/price_distribution_per_transmission_category.png)
-
-![Price distribution by drive type](./images/price_distribution_per_drive_category.png)
-
-
-Categorical type features impact on price Observations
-- prices by brands
-    - `aston-martin` brand has highest price
-    - just to note, used `electric` vehicles like `tesla` has high price
-    - `land-rover` has least used car price
-- prices by condition
-    - `good` and `new` condition has high prices
-    - `fair` and `salvage` conditioned used vehicles has least prices
-- prices by cyliders
-    - Seems highly demanded types like `8/6` cylider types has more price than `10/12` cylinders
-- prices by fuel types
-    - `diesel` and `electic` fuel types has higher prices than `gas` fuel type
-- prices by title status
-    - `clean` and `lien` status used cars has more price
-    - `missing/salvage` and `parts only` statuses has less price
-- prices by transmission type
-    - `other` transmission type has higher price, but unfortunately we don't have further details on other types, most likely it might be electric cars
-    - `automatic` pricier than `manual`
-- prices by type
-    - `pickup/truck/coupe` types has higher prices
-    - `mini-vans` has lowest price
-- prices by car paint color
-    - seems paint color is not determining the car price. So better to drop this feature
-
-### Numerical features distributions
-
-![Numerical feature distributions](./images/price_distribution_per_numeric_type.png)
-
-**Observations**
-
-- Odometer is evenly distributed, just to note there are good number with < 5K odometer value
-- most of the cars from 2015-2020 make year
-- As we observed most of the used car prices are < 40K
-
+Please refer EDA section of [prediction_model_notebook](./notebooks/Used_car_price_EDA_and_prediction_model.ipynb)
 
 
 ## Results

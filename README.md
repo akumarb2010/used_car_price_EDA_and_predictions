@@ -51,7 +51,7 @@ Original Dataset : [Kaggle Used Car Dataset](https://www.kaggle.com/datasets/aus
 --------
 
 ### Price Distribution
-[Price Distribution](price_distribution.png)
+![Price Distribution](price_distribution.png "Price Distribution")
 
 **Note :** From the above price distribution chart
 - Most of the car prices are < 20K and distribution is right skewed
@@ -62,7 +62,7 @@ Original Dataset : [Kaggle Used Car Dataset](https://www.kaggle.com/datasets/aus
 ### Categorical Feature Data Exploration
 #### Categorical Feature Type Distribution Summary
 
-[Categorical Type Feature Value Distributions](./images/price_distribution_per_category.png)
+![Categorical Type Feature Value Distributions](./images/price_distribution_per_category.png)
 
 *Observations:* From the above feature hist distributions
 
@@ -93,13 +93,19 @@ Original Dataset : [Kaggle Used Car Dataset](https://www.kaggle.com/datasets/aus
 
 #### Price distribution per caterorical type
 
-[Price distribution by manufacturer](./images/price_distribution_per_manufacturer_category.png)
-[Price distribution by condition](./images/price_distribution_per_condition_category.png)
-[Price distribution by cylinders](./images/price_distribution_per_cylinders_category.png)
-[Price distribution by fuel_type](./images/price_distribution_per_fuel_category.png)
-[Price distribution by title status](./images/price_distribution_per_title_status_category.png)
-[Price distribution by transmission](./images/price_distribution_per_transmission_category.png)
-[Price distribution by drive type](./images/price_distribution_per_drive_category.png)
+![Price distribution by manufacturer](./images/price_distribution_per_manufacturer_category.png)
+
+![Price distribution by condition](./images/price_distribution_per_condition_category.png)
+
+![Price distribution by cylinders](./images/price_distribution_per_cylinders_category.png)
+
+![Price distribution by fuel_type](./images/price_distribution_per_fuel_category.png)
+
+![Price distribution by title status](./images/price_distribution_per_title_status_category.png)
+
+![Price distribution by transmission](./images/price_distribution_per_transmission_category.png)
+
+![Price distribution by drive type](./images/price_distribution_per_drive_category.png)
 
 
 Categorical type features impact on price Observations
@@ -128,7 +134,7 @@ Categorical type features impact on price Observations
 
 ### Numerical features distributions
 
-[Numerical feature distributions](./images/images/price_distribution_per_numeric_type.png)
+![Numerical feature distributions](./images/images/price_distribution_per_numeric_type.png)
 
 **Observations**
 
@@ -154,4 +160,5 @@ Below are the features, consumer values most
 - car title : Values clear title
 
 Also as provided in results section of [prediction_model_notebook](./notebooks/Used_car_price_EDA_and_prediction_model.ipynb)  used car price can be calculated using predictive model
+
 
